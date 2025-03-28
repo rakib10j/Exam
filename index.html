@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FC3314',
+                        dark: '#1F1F1F',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans">
+    <!-- Hero Section -->
+    <div class="w-full bg-[#FFD4D0] min-h-screen">
+        <!-- Navigation -->
+        <nav class="container mx-auto px-6 py-10 flex justify-between items-center">
+          <div class="absolute left-[438px] top-[-98px] w-[146px] h-[146px]">
+            <img src="assets/img/Background (1).svg" alt="" class="w-full h-full">
+          </div>
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <span class="text-dark text-3xl font-semibold tracking-[-5px]">RR</span>
+                <span class="text-primary text-3xl font-semibold left-[5px] tracking-tight">F</span>
+                <span class="text-primary text-3xl font-semibold ml-2">EXAM</span>
+            </div>
+
+            <!-- Nav Links -->
+            <ul class="hidden md:flex space-x-8">
+                <li class="text-dark font-bold hover:text-primary transition">About</li>
+                <li class="text-dark font-bold hover:text-primary transition">Services</li>
+                <li class="text-dark font-bold hover:text-primary transition">Portfolio</li>
+                <li class="text-dark font-bold hover:text-primary transition">Blog</li>
+            </ul>
+
+            <!-- CTA Button -->
+            <button class="bg-dark text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition">
+                Let's Talk
+            </button>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center pb-20">
+            <!-- Text Content -->
+            <div class="md:w-1/2 space-y-12">
+                <div class="space-y-4">
+                    <h1 class="text-dark text-xl">UX Designer</h1>
+                    <h2 class="text-dark text-5xl font-bold">Hi There, I'm</h2>
+                    <h2 class="text-primary text-5xl font-bold">John Smith</h2>
+                    <p class="text-dark text-base max-w-md">
+                        Welcome to my portfolio of captivating digital experiences. 
+                        Explore my work and let's create something extraordinary together.
+                    </p>
+                </div>
+                
+                <div class="flex space-x-5">
+                    <button class="bg-dark text-white px-14 py-3 rounded-lg font-medium">
+                        Hire Me
+                    </button>
+                    <button class="border-2 border-dark text-dark px-9 py-3 rounded-lg font-medium">
+                        Portfolio
+                    </button>
+                </div>
+            </div>
+
+            <!-- Graphic Elements -->
+            <div class="md:w-1/2 relative mt-16 md:mt-0">
+                <!-- Background Text -->
+                <div class="absolute -z-10 -top-20 left-0">
+                    <span class="text-[400px] font-bold text-white text-opacity-50 stroke-2 stroke-primary">UX</span>
+                </div>
+                
+                <!-- Main Image -->
+                <div class="w-[687px] h-[487.344px] image">
+                  <div class="shape-177">
+                    
+                  </div>
+                  <span>
+                    UX
+                  </span>
+                  
+                </div>
+            </div>
+        </div>
+        <section class="py-16 px-6 bg-[#1F1F1F]">
+          <div class="container mx-auto max-w-4xl">
+            <!-- Heading -->
+            <div class="text-center">
+              <h2 class="text-4xl font-bold text-white mb-8">About Me</h2>
+            </div>
+            
+            <!-- Bio Text -->
+            <p class="text-lg text-gray-300 mb-12 leading-relaxed">
+              I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. 
+              With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. 
+              Let's collaborate and shape the future of design together.
+            </p>
+            
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <!-- Projects Done -->
+              <div class="text-center">
+                <span class="block text-5xl font-bold text-[#FFD4D0] mb-2">502</span>
+                <span class="text-white">Projects Done</span>
+              </div>
+              
+              <!-- Years of Experience -->
+              <div class="text-center">
+                <span class="block text-5xl font-bold text-[#FFD4D0] mb-2">10+</span>
+                <span class="text-white">Years of Experience</span>
+              </div>
+              
+              <!-- Clients Served -->
+              <div class="text-center">
+                <span class="block text-5xl font-bold text-[#FFD4D0] mb-2">273+</span>
+                <span class="text-white">Clients Served</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-white text-gray-900">
+          <section class="text-center py-16 px-6">
+              <h2 class="text-3xl font-bold text-black">Services</h2>
+              <p class="text-gray-600 max-w-2xl mx-auto mt-2">
+                  Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.
+              </p>
+      
+              <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10 max-w-5xl mx-auto">
+                  <!-- Design -->
+                  <div class="flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="54" viewBox="0 0 48 54" fill="none">
+                      <path d="M35.2767 26.4354C36.1863 26.6459 37.1685 26.8264 38.2284 26.9851C37.1685 27.1438 36.1863 27.3243 35.2767 27.5348C32.0531 28.2808 29.6276 29.4277 27.8516 31.4172C26.0879 33.3929 25.0727 36.0803 24.4093 39.6773C24.2526 40.527 24.1143 41.4343 23.9906 42.4032C23.8666 41.4342 23.7281 40.5268 23.5712 39.6771C22.9068 36.08 21.891 33.3927 20.1269 31.4171C18.3505 29.4276 15.9248 28.2808 12.7011 27.5348C11.7915 27.3243 10.8093 27.1438 9.74938 26.9851C10.8093 26.8264 11.7915 26.6459 12.7011 26.4354C15.9248 25.6894 18.3505 24.5426 20.1269 22.5532C21.891 20.5775 22.9068 17.8902 23.5712 14.2931C23.7281 13.4434 23.8666 12.536 23.9906 11.567C24.1143 12.5359 24.2526 13.4433 24.4093 14.2929C25.0727 17.89 26.0879 20.5774 27.8516 22.5531C29.6276 24.5426 32.0531 25.6894 35.2767 26.4354Z" stroke="#FC3314" stroke-width="2"/>
+                      </svg>
+                      <h3 class="font-semibold text-lg mt-4">Design</h3>
+                      <p class="text-gray-600 text-sm mt-2">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+                  </div>
+      
+                  <!-- Branding -->
+                  <div class="flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                      <circle cx="22" cy="22" r="21" stroke="#FC3314" stroke-width="2"/>
+                      </svg>
+                      <h3 class="font-semibold text-lg mt-4">Branding</h3>
+                      <p class="text-gray-600 text-sm mt-2">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
+                  </div>
+      
+                  <!-- UX Research -->
+                  <div class="flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+                      <path d="M31.5004 11.2504H45.0004" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M31.5004 18.0004H38.2504" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M47.2504 25.8754C47.2504 37.6879 37.6879 47.2504 25.8754 47.2504C14.0629 47.2504 4.50043 37.6879 4.50043 25.8754C4.50043 14.0629 14.0629 4.50037 25.8754 4.50037" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M49.5004 49.5004L45.0004 45.0004" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <h3 class="font-semibold text-lg mt-4">UX Research</h3>
+                      <p class="text-gray-600 text-sm mt-2">I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>
+                  </div>
+      
+                  <!-- Usability Testing -->
+                  <div class="flex flex-col items-center">
+                      <svg class="w-12 h-12 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M6 12l2 2 4-4m4 2l2 2 4-4" stroke="currentColor"/>
+                      </svg>
+                      <h3 class="font-semibold text-lg mt-4">Usability Testing</h3>
+                      <p class="text-gray-600 text-sm mt-2">I perform usability testing and optimize design websites based on real-user feedback for seamless interactions.</p>
+                  </div>
+              </div>
+          </section>
+          <div class="relative max-w-6xl mx-auto">
+            <!-- First Row (Pink Background) -->
+            <div class="bg-[#FFD4D0] py-12 px-4 sm:px-6">
+              <div class="text-center">
+                <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">My Portfolio</h1>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                  Explore my design services, from user interface and experience to prototyping and testing. 
+                  Let's craft exceptional digital experiences together.
+                </p>
+              </div>
+            </div>
+          
+            <!-- Second Row (White Background) -->
+            <div class="py-12 px-4 sm:px-6 bg-white">
+              <!-- Portfolio Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                  <div class="h-48 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-500">
+                      <img src="assets/img/Image.png" alt="">
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Travel App Design</h3>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">UX Research / App Design</span>
+                      <div class="mt-3 inline-flex items-center justify-center w-10 h-10 bg-red-500 text-white rounded-full">
+                        <span class="text-xl">&#8599;</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Project 2 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                  <div class="h-48 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-500">
+                      <img src="assets/img/Image (1).png" alt="">
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Travel App Design</h3>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">UX Research / App Design</span>
+                      <div class="mt-3 inline-flex items-center justify-center w-10 h-10 bg-red-500 text-white rounded-full">
+                        <span class="text-xl">&#8599;</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                  <div class="h-48 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-500">
+                      <img src="assets/img/Image (2).png" alt="">
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Travel App Design</h3>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">UX Research / App Design</span>
+                      <div class="mt-3 inline-flex items-center justify-center w-10 h-10 bg-red-500 text-white rounded-full">
+                        <span class="text-xl">&#8599;</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Project 4 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                  <div class="h-48 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-500">
+                      <img src="assets/img/Image (3).png" alt="">
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Travel App Design</h3>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">UX Research / App Design</span>
+                      <div class="mt-3 inline-flex items-center justify-center w-10 h-10 bg-red-500 text-white rounded-full">
+                        <span class="text-xl">&#8599;</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                  <div class="h-48 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-500">
+                      <img src="assets/img/Image (4).png" alt="">
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Travel App Design</h3>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">UX Research / App Design</span>
+                      <div class="mt-3 inline-flex items-center justify-center w-10 h-10 bg-red-500 text-white rounded-full">
+                        <span class="text-xl">&#8599;</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Project 6 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                  <div class="h-48 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-500">
+                      <img src="assets/img/Image (2).png" alt="">
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Travel App Design</h3>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">UX Research / App Design</span>
+                      <div class="mt-3 inline-flex items-center justify-center w-10 h-10 bg-red-500 text-white rounded-full">
+                        <span class="text-xl">&#8599;</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <section class="py-16 px-4 sm:px-6 bg-white">
+            <div class="max-w-4xl mx-auto">
+              <!-- Header -->
+              <div class="mb-12">
+                <h1 class="text-3xl font-bold flex items-center justify-center  text-gray-900 mb-4">Core Design Skills</h1>
+                <p class="text-lg text-gray-600 flex items-center justify-center">
+                  I excel in essential design skills, creating visually stunning and functional digital experiences. 
+                  From UI design to UX research, my passion is to craft effective and memorable digital solutions.
+                </p>
+              </div>
+          
+              <!-- Skills Section -->
+              <div class="space-y-8">
+               
+                  
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <!-- Left Column -->
+                  <div class="space-y-5">
+                    <!-- Figma -->
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="text-gray-700">Figma</span>
+                        <span class="text-gray-500">95%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-[#FC3314] h-2.5 rounded-full" style="width: 95%"></div>
+                      </div>
+                    </div>
+                
+                    <!-- User Research -->
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="text-gray-700">User Research</span>
+                        <span class="text-gray-500">70%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-[#FC3314] h-2.5 rounded-full" style="width: 70%"></div>
+                      </div>
+                    </div>
+                
+                    <!-- Information Architecture -->
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="text-gray-700">Information Architecture</span>
+                        <span class="text-gray-500">45%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-[#FC3314] h-2.5 rounded-full" style="width: 45%"></div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Right Column -->
+                  <div class="space-y-5">
+                    <!-- Usability Testing -->
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="text-gray-700">Usability Testing</span>
+                        <span class="text-gray-500">60%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-[#FC3314] h-2.5 rounded-full" style="width: 60%"></div>
+                      </div>
+                    </div>
+                
+                    <!-- Prototyping -->
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="text-gray-700">Prototyping</span>
+                        <span class="text-gray-500">80%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-[#FC3314] h-2.5 rounded-full" style="width: 80%"></div>
+                      </div>
+                    </div>
+                    
+                    <!-- Duplicate Figma (assuming this was intentional) -->
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="text-gray-700">Figma</span>
+                        <span class="text-gray-500">95%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div class="bg-[#FC3314] h-2.5 rounded-full" style="width: 95%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="py-16 px-4 max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Design Insights and Inspiration</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Discover industry insights, expert tips, and design inspiration. Stay updated with the latest trends in web design and user experience.
+                </p>
+                <div class="mt-8 text-xs text-gray-400 tracking-widest">
+                   
+                </div>
+            </div>
+    
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <div class="p-6">
+                      <span>
+                        <img src="assets/img/Image (7).png" alt="">
+                      </span>
+                        <div class="text-sm text-gray-500 mb-2">August 15, 2023 / UX</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Typography Tips for Design Success</h3>
+                        <p class="text-gray-600 mb-4">
+                            Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.
+                        </p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Read More</a>
+                    </div>
+                </div>
+    
+                <!-- Article 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <div class="p-6">
+                      <span>
+                        <img src="assets/img/Image (6).png" alt="">
+                      </span>
+                        <div class="text-sm text-gray-500 mb-2">August 15, 2023 / UX</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Color Psychology in UX</h3>
+                        <p class="text-gray-600 mb-4">
+                            Explore how color choices impact user emotions and decision-making in UX design.
+                        </p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Read More</a>
+                    </div>
+                </div>
+    
+                <!-- Article 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <div class="p-6">
+                      <span>
+                        <img src="assets/img/Image (5).png" alt="">
+                      </span>
+                        <div class="text-sm text-gray-500 mb-2">August 15, 2023 / UX</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Boosting UX with Microinteractions</h3>
+                        <p class="text-gray-600 mb-4">
+                            Discover the power of microinteractions in enhancing user experience and engagement.
+                        </p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 max-w-4xl mx-auto bg-[#FFD4D0]">
+          <div class="text-center mb-12">
+              <h2 class="text-3xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+              <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                  Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.
+              </p>
+          </div>
+  
+          <div class="grid md:grid-cols-2 gap-12">
+              <!-- Contact Information -->
+              <div class="space-y-6">
+                  <div>
+                      <h3 class="text-xl font-semibold text-gray-800 mb-2">Contact Details</h3>
+                      
+                      <span>
+                        <img src="assets/img/bxs_phone-call.svg" alt=""><p class="text-gray-600">+1205 5872 321</p>
+                      </span>
+                      <p class="text-gray-600"></p>
+                      <span>
+                        <img src="assets/img/ic_sharp-email.svg" alt="">contact@sarajonesdesign.com
+                      </span>
+                  </div>
+                  <div>
+                    <img src="assets/img/ic_sharp-email.svg" alt="">
+                      <h3 class="text-xl font-semibold text-gray-800 mb-2">Address</h3>
+                      <p class="text-gray-600">
+                          1234 Design Street,<br>
+                          Creativeville, Webland,<br>
+                          Imaginary State, 98765
+                      </p>
+                  </div>
+              </div>
+  
+              <!-- Contact Form -->
+              <div class="bg-white p-8 rounded-lg shadow-md bg-[#FFD4D0]">
+                  <form class="space-y-6">
+                      <div>
+                          <label for="first-name" class="block text-gray-700 mb-2">First name</label>
+                          <input type="text" id="first-name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                      </div>
+                      <div>
+                          <label for="email" class="block text-gray-700 mb-2">Email</label>
+                          <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                      </div>
+                      <div>
+                          <label for="phone" class="block text-gray-700 mb-2">Phone number</label>
+                          <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                      </div>
+                      <div>
+                          <label for="message" class="block text-gray-700 mb-2">Your message</label>
+                          <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                      </div>
+                      <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors duration-200 font-medium">
+                          Send Message
+                      </button>
+                  </form>
+              </div>
+          </div>
+      </section>
+      <section class="bg-black font-sans">
+        <nav class="container mx-auto px-6 py-8">
+            <!-- Main Navigation -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <!-- Left Navigation -->
+                <div class="flex flex-col md:flex-row md:space-x-12 space-y-4 md:space-y-0 mb-6 md:mb-0 text-center md:text-left">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-white">About</h3>
+                        <p class="text-sm text-gray-300">RF EXAM</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-white">Services</h3>
+                    </div>
+                </div>
+    
+                <!-- Right Navigation -->
+                <div class="flex flex-col md:flex-row md:space-x-12 space-y-4 md:space-y-0 text-center md:text-left">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-white">Portfolio</h3>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-white">Blog</h3>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="text-center">
+                <p class="text-sm mb-4 text-gray-400">Follow me on social media:</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-dribbble text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </section>
+      
+    </div>
+</body>
+</html>
